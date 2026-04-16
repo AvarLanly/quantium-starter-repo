@@ -1,0 +1,109 @@
+/* Global styles for Pink Morsel Sales Visualiser */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin: 0 0 10px 0;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.question-text {
+    color: #e74c3c;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 0;
+}
+
+.controls-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.control-label {
+    color: #2c3e50;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.chart-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Radio button styling */
+.dash-radio-items {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.dash-radio-items label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-radius: 25px;
+    border: 2px solid #e0e0e0;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    color: #555;
+}
+
+.dash-radio-items label:hover {
+    background-color: #e8e8e8;
+    border-color: #667eea;
+}
+
+.dash-radio-items input[type="radio"] {
+    margin-right: 8px;
+    accent-color: #667eea;
+}
+
+.dash-radio-items label:has(input:checked) {
+    background-color: #667eea;
+    border-color: #667eea;
+    color: white;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9em;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
