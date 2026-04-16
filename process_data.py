@@ -46,7 +46,7 @@ with open(output_path, 'w', newline='', encoding='utf-8') as f:
     # Write all the data rows
     writer.writerows(output_rows)
 
-# Print summary information about the data processing
+#  Print summary information about the data processing
 print(f"Total rows in combined data: {len(combined_rows)}")
 print(f"Rows after filtering for pink morsel: {len(output_rows)}")
 print(f"\nOutput saved to: {output_path}")
